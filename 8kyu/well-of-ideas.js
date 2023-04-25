@@ -4,14 +4,30 @@
 // In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
 
 // My solutions: 
-function well(x) {
-    switch (x.filter(i => i === 'good').length) {
-      case 0:
-        return 'Fail!'
-      case 1:
+function well(x){
+  switch(x.filter(item => item == 'good').length){
+      case 0: 
+      return "Fail!"
+      break;
+      case 1: 
       case 2:
-        return 'Publish!'
-      default:
-        return 'I smell a series!'
-    }
+      return 'Publish!'
+      break;
+      default: 
+      return 'I smell a series!'
+      break; 
   }
+}
+
+//Option 2:
+// function well(x) {
+//     switch (x.filter(i => i === 'good').length) {
+//       case 0:
+//         return 'Fail!'
+//       case 1:
+//       case 2:
+//         return 'Publish!'
+//       default:
+//         return 'I smell a series!'
+//     }
+//   }

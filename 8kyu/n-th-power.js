@@ -8,4 +8,8 @@
 // array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 
 // My solutions:
-const index = (array, n) => array.length > n ? Math.pow(array[n], n) : -1;
+function index(array, n){
+    return isNaN(array[n]**n)? -1 : array[n]**n
+  }
+//option 2:
+//const index = (array, n) => array.length > n ? Math.pow(array[n], n) : -1;
