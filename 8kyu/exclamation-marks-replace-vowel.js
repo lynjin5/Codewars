@@ -9,7 +9,4 @@ function replace(s){
 
 //option 2
 const replace = s => s.replace(/[aeiou]/ig, '!')
-<<<<<<< HEAD
-=======
 
->>>>>>> 2c8120edcebbfbe6853b3aeac07d61eb7f88ac6b
