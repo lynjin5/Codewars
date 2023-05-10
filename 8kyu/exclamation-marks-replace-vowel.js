@@ -8,8 +8,5 @@ function replace(s){
 }
 
 //option 2
-<<<<<<< HEAD
 const replace = s => s.replace(/[aeiou]/ig, '!')
-=======
-const replace = s => s.replace(/[aeiou]/ig, '!')
->>>>>>> c169fce8d2049170d88f5fb57a917aac3e0e5e55
+
