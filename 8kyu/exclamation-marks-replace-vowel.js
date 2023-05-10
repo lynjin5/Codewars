@@ -6,6 +6,3 @@
 function replace(s){
     return s.replace(/[aeiou]/ig, '!')
 }
-
-//option 2
-const replace = s => s.replace(/[aeiou]/ig, '!')
