@@ -6,3 +6,6 @@
 let replaceDots = function(str) {
     return str.replace(/\./g, '-');
 }
+
+//Option 2:
+var replaceDots = str => str.split('.').join('-')
