@@ -5,6 +5,7 @@
 // (e.g. name, description, completed).
 
 //My solutions:
+//should have at least 3 rooms, each room is an object, containing 3 properties per room
 var rooms = {
     room1 :{
       name: 'room1',
@@ -36,5 +37,3 @@ var rooms = {
     kitchen : new Room(),
     bathroom : new Room(),
   }
-  
-  //should have at least 3 rooms, each room is an object, contain 3 properties per room
