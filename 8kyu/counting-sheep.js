@@ -15,12 +15,12 @@
 
 //My solutions: 
 function countSheeps(arrayOfSheep) {
-    let total = Number('')
+    let total = 0
     for(i=0; i<arrayOfSheep.length; i++){
       if(arrayOfSheep[i] == true){
-        total += 1
+        total++
       }else{
-        total += 0
+        total
       } 
     }return total
 }
