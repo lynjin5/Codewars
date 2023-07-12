@@ -17,4 +17,5 @@ function checkAlive (health) {
 
 //Option 2:
 function checkAlive(health){
-    return health > 0 
+    return health > 0
+}
